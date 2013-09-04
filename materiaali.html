@@ -308,9 +308,10 @@
                     Edellisessä luvussa käsiteltiin avaruuksien \(\R^2 \) ja \(\R^3 \) vektoreita eli
                     reaalilukupareja ja reaalilukukolmikoita. Näitä avaruuksia voidaan yleistää määrittelemällä \(n\)-ulotteinen avaruus \(\R^n \).
                 </p>
-                <div class="maar"><h3 class="otsikko">Määritelma</h3>
+                <div class="maar">
+                    <h3 class="otsikko">Määritelma</h3>
                     <div class="sisalto">
-                        <p>Oletetaan, että \(n \in \{1,2,3,\dots\} \). Avaruuden \(\R^n$\index{avaruus \(\R^n\)} alkiot ovat reaaliluvuista koostuvia \(n$-jonoja. Toisin sanoen</p>
+                        <p>Oletetaan, että \(n \in \{1,2,3,\dots\} \). Avaruuden \(\R^n\) alkiot ovat reaaliluvuista koostuvia \(n\)-jonoja. Toisin sanoen</p>
                         \[\R^n=\{(v_1,v_2,\dots,v_n) \mid v_1,v_2,\dots,v_n \in \R\}.\]
                         <p>Avaruuden \(\R^n \) alkioita kutsutaan <strong>vektoreiksi</strong>.</p>
                     </div>
@@ -341,7 +342,8 @@
                 </p><p>
                     <strong>Huom.</strong> Ainoastaan samanulotteisen avaruuden vektoreita voi laskea yhteen.
                 </p>
-                <div class="maar"><h3 class="otsikko">Määritelma</h3>
+                <div class="maar">
+                    <h3 class="otsikko">Määritelma</h3>
                     <div class="sisalto">
                         <p> Vektorin \(\vv \) <strong>vastavektori</strong> on skalaarimonikerta \((-1)\vv \). Sitä merkitään \(-\vv \). Vektoreiden \(\vv \) ja \(\vw \) <strong>erotus</strong> on summa \(\vv+(-\vw) \). Sitä merkitään \(\vv-\vw \).
                             Vektoria \((0,0,\dots,0) \) kutsutaan <strong>nollavektoriksi</strong>. Sille käytetään merkintää \(\nv \).
@@ -349,7 +351,8 @@
                     </div>
                 </div>
 
-                <div class="esim drop"><h3 class="otsikko">Esimerkki</h3>
+                <div class="esim drop">
+                    <h3 class="otsikko">Esimerkki</h3>
                     <div class="sisalto">
                         <p>Merkitään \(\vv = (-5,3,0,1,-1) \) ja \(\vw = (-2,-4,2,3,5) \). Tällöin \(\vv \) ja \(\vw \) ovat avaruuden \(\R^5 \) vektoreita. Lasketaan vektorit \(2\vv - 3\vw \) ja \(-5\vv-\vw\):</p>
                         \[
@@ -393,7 +396,7 @@
                         <strong>Huom.</strong> Lause tarkoittaa väitettä, joka voidaan perustella todeksi nojautumalla määritelmiin ja aikaisemmin todeksi osoitettuihin väitteisiin.
                     </p>
                     <div class="proof drop">
-                        <h3 class="otsikko">Todistus</h3>
+                        <h4 class="otsikko">Todistus</h4>
                         <div class="sisalto">
                             Todistetaan esimerkin vuoksi kohta 1 ja jätetään loput kohdat harjoitustehtäviksi. Oletetaan kuten lauseessa, että \(\vv\in\R^n \) ja \(\vw\in\R^n \). Tällöin \(\vv=(v_1, \dots, v_n) \) ja \(\vw=(w_1, \dots, w_n) \), ja luvut \(v_1, \dots, v_n \) ja \(w_1, \dots, w_n \) ovat reaalilukuja. Koska reaalilukujen yhteenlasku on vaihdannainen, jokaisella \(i\in\{1,\dots,n\} \) pätee \(v_i+w_i=w_i+v_i \). Nyt nähdään, että
                             \[
@@ -661,7 +664,7 @@
 
 
                     <div class="proof drop">
-                        <h3 class="otsikko">Todistus</h3>
+                        <h4 class="otsikko">Todistus</h4>
                         <div class="sisalto">
                             <p>Merkitään \(S'=\{\vq+t\vw \mid t \in \R\} \) ja osoitetaan, että \(S=S' \). Koska vektorit \(\vv \) ja \(\vw \) ovat yhdensuuntaisia, on olemassa \(k \in \R \setminus\{0\} \), jolle pätee \(\vv=k\vw \). Tästä seuraa, että \(\vw=(1/k)\vv \). Toisaalta \(\vq \in S \), joten \(\vq=\vp+b\vw \) jollakin \(b \in \R \). Tästä seuraa, että \(\vp=\vq-b\vw\)
                             </p>
@@ -685,66 +688,67 @@
                             Siten \(S=S' \).
                         </div>
                     </div>
-                    <h2>Taso</h2>
+                </div>
+                <h2>Taso</h2>
 
-                    <p>Kolmiulotteisessa avaruudessa voidaan määritellä tasot samaan tapaan kuin suorat. Nyt tarvitaan kuitenkin kahta suuntavektoria, ja näiden täytyy olla erisuuntaiset.</p>
+                <p>Kolmiulotteisessa avaruudessa voidaan määritellä tasot samaan tapaan kuin suorat. Nyt tarvitaan kuitenkin kahta suuntavektoria, ja näiden täytyy olla erisuuntaiset.</p>
 
-                    <div class="maar">
-                        <h3 class="otsikko">Määritelma</h3>
-                        <div class="sisalto">
-                            <p>Avaruuden \(\R^n \) <strong>taso</strong> on joukko</p>
-                            \[\{\vp+s\vv+t\vw \mid s,t \in \R\},\] missä
-                            <p>\(\vp \in \R^n \), \(\vv,\vw \in \R^n \setminus \{\nv\} \) ja vektorit \(\vv \) ja \(\vw\)
-                                eivät ole yhdensuuntaiset. Vektoria \(\vp \) kutsutaan tason <strong>paikkavektoriksi</strong> ja vektoreita \(\vv \) ja
-                                \(\vw \) tason <strong>suunta\-vektoreiksi</strong>.</p>
-                        </div>
-                    </div>
-
-                    <p>Olkoon \(T \) avaruuden \(\R^3 \) taso. Jos \((a,b,c) \in T \), niin sanotaan, että piste
-                        \((a,b,c) \) <strong>on tasossa \(T\)</strong> tai että taso \(T \) <strong>kulkee pisteen \((a,b,c) \) kautta</strong>. Tasoa ja siinä olevaa pistettä on havainnollistettu kuvassa \ref{k28}. Vastaavia ilmauksia käytetään avaruudessa \(\R^n \).</p>
-
-                    <div class="image">
-
-                        <img src="https://raw.github.com/ruumis/Lineaarialgebra-ja-matriisilaskenta/master/kuvia/kuva28.png" />
-                        <p><strong>Kuva: </strong>Piste \((a,b,c) \) on tasossa \(T \).</p>\label{k28}
-                    </div>
-
-                    <p>Kuten suorien kohdalla voidaan tasojenkin tapauksessa osoittaa, että sama taso on mahdollista kirjoittaa usealla eri tavalla joukkona \(\{\vp+s\vw + t\vv \mid s, t \in \R\} \). Tarkemmin sanoen</p>
-                    <ul>
-                        <li> vektoriksi \(\vp \) voidaan valita tason minkä tahansa pisteen paikkavektori
-                        <li> vektoreiksi  \(\vw \) ja \(\vv \) voidaan valita mitkä tahansa tason suuntaisen vektorit, kunhan \(\vw \) ja \(\vv \) eivät ole yhdensuuntaiset.
-                    </ul>
-                    <p>Tilannetta on havainnollistettu kuvassa~\ref{k28b-29}. Todistus on samanlainen kuin suorien tapauksessa, mutta sitä ei esitetä tässä.</p>
-                    <!-- Tarkka todistus jätetään jälleen (haastavaksi) harjoitustehtäväksi. -->
-
-                    <div class="image">
-
-                        <img src="https://raw.github.com/ruumis/Lineaarialgebra-ja-matriisilaskenta/master/kuvia/kuva28b.png" /> 
-                        <img src="https://raw.github.com/ruumis/Lineaarialgebra-ja-matriisilaskenta/master/kuvia/kuva29.png" />
-                        <p><strong>Kuva: </strong>Taso voidaan kirjoittaa eri tavoin joukkona \(\{\vp+s\vw + t\vv \mid s, t \in \R\} \).</p>\label{k28b-29}
-                    </div>
-
-                    <div class="esim drop">
-                        <h3 class="otsikko">Esimerkki</h3>
-                        <div class="sisalto">
-                            <p>Määritetään pisteiden \(A = (0,1,0) \), \(B = (-1,3,2) \) ja \(C = (-2,0,1) \) kautta kulkeva taso \(T \).
-                                Valitaan ensin tason paikkavektori. Esimerkiksi tason pisteen \(A \) paikkavektori \(\pv{OA} = (0,1,0) \) käy tähän tarkoitukseen.
-                                Lisäksi tarvitaan tason suuntaiset suuntavektorit:</p>
-                            \[
-                            \pv{AB}=\pv{OB}-\pv{OA}=(-1,2,2) \quad \text{ja} \quad
-                            \pv{AC}=\pv{OC}-\pv{OA}=(-2,-1,1).
-                            \]
-                            <p>Huomaa, että vektorit eivät ole yhdensuuntaiset, sillä \(\pv{AB} \neq r \pv{AC} \) kaikilla nollasta poikkeavilla reaaliluvuilla \(r \). (Tämä pitäisi tietysti todistaa täsmällisesti, mutta sivuutamme sen.)
-                                Näin saadaan taso</p>
-                            \[
-                            \begin{split}
-                            T & = \bigl\{\pv{OA} + s\pv{AB} + t\pv{AC} \mid s,t \in \R\bigr\} \\
-                            & = \{(0,1,0)+ s(-1,2,2)+ t(-2,-1,1) \mid s,t \in \R\}.
-                            \end{split}
-                            \]
-                        </div>
+                <div class="maar">
+                    <h3 class="otsikko">Määritelma</h3>
+                    <div class="sisalto">
+                        <p>Avaruuden \(\R^n \) <strong>taso</strong> on joukko</p>
+                        \[\{\vp+s\vv+t\vw \mid s,t \in \R\},\] missä
+                        <p>\(\vp \in \R^n \), \(\vv,\vw \in \R^n \setminus \{\nv\} \) ja vektorit \(\vv \) ja \(\vw\)
+                            eivät ole yhdensuuntaiset. Vektoria \(\vp \) kutsutaan tason <strong>paikkavektoriksi</strong> ja vektoreita \(\vv \) ja
+                            \(\vw \) tason <strong>suunta\-vektoreiksi</strong>.</p>
                     </div>
                 </div>
+
+                <p>Olkoon \(T \) avaruuden \(\R^3 \) taso. Jos \((a,b,c) \in T \), niin sanotaan, että piste
+                    \((a,b,c) \) <strong>on tasossa \(T\)</strong> tai että taso \(T \) <strong>kulkee pisteen \((a,b,c) \) kautta</strong>. Tasoa ja siinä olevaa pistettä on havainnollistettu kuvassa \ref{k28}. Vastaavia ilmauksia käytetään avaruudessa \(\R^n \).</p>
+
+                <div class="image">
+
+                    <img src="https://raw.github.com/ruumis/Lineaarialgebra-ja-matriisilaskenta/master/kuvia/kuva28.png" />
+                    <p><strong>Kuva: </strong>Piste \((a,b,c) \) on tasossa \(T \).</p>\label{k28}
+                </div>
+
+                <p>Kuten suorien kohdalla voidaan tasojenkin tapauksessa osoittaa, että sama taso on mahdollista kirjoittaa usealla eri tavalla joukkona \(\{\vp+s\vw + t\vv \mid s, t \in \R\} \). Tarkemmin sanoen</p>
+                <ul>
+                    <li> vektoriksi \(\vp \) voidaan valita tason minkä tahansa pisteen paikkavektori
+                    <li> vektoreiksi  \(\vw \) ja \(\vv \) voidaan valita mitkä tahansa tason suuntaisen vektorit, kunhan \(\vw \) ja \(\vv \) eivät ole yhdensuuntaiset.
+                </ul>
+                <p>Tilannetta on havainnollistettu kuvassa~\ref{k28b-29}. Todistus on samanlainen kuin suorien tapauksessa, mutta sitä ei esitetä tässä.</p>
+                <!-- Tarkka todistus jätetään jälleen (haastavaksi) harjoitustehtäväksi. -->
+
+                <div class="image">
+
+                    <img src="https://raw.github.com/ruumis/Lineaarialgebra-ja-matriisilaskenta/master/kuvia/kuva28b.png" /> 
+                    <img src="https://raw.github.com/ruumis/Lineaarialgebra-ja-matriisilaskenta/master/kuvia/kuva29.png" />
+                    <p><strong>Kuva: </strong>Taso voidaan kirjoittaa eri tavoin joukkona \(\{\vp+s\vw + t\vv \mid s, t \in \R\} \).</p>\label{k28b-29}
+                </div>
+
+                <div class="esim drop">
+                    <h3 class="otsikko">Esimerkki</h3>
+                    <div class="sisalto">
+                        <p>Määritetään pisteiden \(A = (0,1,0) \), \(B = (-1,3,2) \) ja \(C = (-2,0,1) \) kautta kulkeva taso \(T \).
+                            Valitaan ensin tason paikkavektori. Esimerkiksi tason pisteen \(A \) paikkavektori \(\pv{OA} = (0,1,0) \) käy tähän tarkoitukseen.
+                            Lisäksi tarvitaan tason suuntaiset suuntavektorit:</p>
+                        \[
+                        \pv{AB}=\pv{OB}-\pv{OA}=(-1,2,2) \quad \text{ja} \quad
+                        \pv{AC}=\pv{OC}-\pv{OA}=(-2,-1,1).
+                        \]
+                        <p>Huomaa, että vektorit eivät ole yhdensuuntaiset, sillä \(\pv{AB} \neq r \pv{AC} \) kaikilla nollasta poikkeavilla reaaliluvuilla \(r \). (Tämä pitäisi tietysti todistaa täsmällisesti, mutta sivuutamme sen.)
+                            Näin saadaan taso</p>
+                        \[
+                        \begin{split}
+                        T & = \bigl\{\pv{OA} + s\pv{AB} + t\pv{AC} \mid s,t \in \R\bigr\} \\
+                        & = \{(0,1,0)+ s(-1,2,2)+ t(-2,-1,1) \mid s,t \in \R\}.
+                        \end{split}
+                        \]
+                    </div>
+                </div>
+            </div>
         </section>
     </body>
 </html>
