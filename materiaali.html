@@ -138,13 +138,13 @@
                 <p>
                     Lukiomatematiikassa vektorit esitettiin olioina, joilla on suunta ja pituus. Tason ja kolmiulotteisen avaruuden vektorit kirjoitettiin yleensä yksikkövektorien \(\vi \), \(\vj \) ja \(\vk \) avulla. Eräs tason vektori saattoi olla vaikkapa \(\vv=3\vi-2\vj \). Huomattiin, että jokaisella koordinaatiston pisteellä on paikkavektori, jonka komponentit ovat pisteen koordinaatit. Esimerkiksi pisteen \((3,-2) \) paikkavektori olisi edellä mainittu vektori \(\vv \).
                 </p><p>
-                    Kun vektorin käsitettä yleistetään korkeampiin ulottuvuuksiin, osoittautuu helpoimmaksi käsitellä vektoreita ja avaruuden pisteitä samalla tavalla. Esimerkiksi merkintä \((3,-2) \) tulee tarkoittamaan sekä pistettä \((3,-2) \) että yllä määriteltyä vektoria \(\vv \). Myös merkinnät yksinkertaistuvat, kun voidaan luopua yksikkövektoreiden \(\vi \), \(\vj \) ja \(\vk \) käytöstä. %, eikä korkeampiulotteisten avaruuksien kohdalla tule vastaan ongelmaa: mitä tehdä kun kirjaimet loppuvat.
+                    Kun vektorin käsitettä yleistetään korkeampiin ulottuvuuksiin, osoittautuu helpoimmaksi käsitellä vektoreita ja avaruuden pisteitä samalla tavalla. Esimerkiksi merkintä \((3,-2) \) tulee tarkoittamaan sekä pistettä \((3,-2) \) että yllä määriteltyä vektoria \(\vv \). Myös merkinnät yksinkertaistuvat, kun voidaan luopua yksikkövektoreiden \(\vi \), \(\vj \) ja \(\vk \) käytöstä. <!-- , eikä korkeampiulotteisten avaruuksien kohdalla tule vastaan ongelmaa: mitä tehdä kun kirjaimet loppuvat. -->
                 </p><p>
-                    Tässä luvussa käsitellään tason ja kolmiulotteisen avaruuden vektoreita. Näitä avaruuksia kutsutaan nimillä \(\R^2 \) ja \(\R^3 \). %Käsiteltävä asia on tuttua koulusta, mutta käytettävät merkinnät ja nimitykset saattavat olla uusia.
+                    Tässä luvussa käsitellään tason ja kolmiulotteisen avaruuden vektoreita. Näitä avaruuksia kutsutaan nimillä \(\R^2 \) ja \(\R^3 \). <!-- Käsiteltävä asia on tuttua koulusta, mutta käytettävät merkinnät ja nimitykset saattavat olla uusia. -->
                 </p>
                 <h2>Kaksiulotteisen avaruuden vektorit</h2>
 
-                <div class="maar drop">
+                <div class="maar drop"><h3 class="otsikko">Määritelma</h3>
                     <p>Avaruus \(\R^2 \) koostuu reaalilukupareista. Toisin sanoen</p>
                     \[
                     \R^2=\{(a,b) \mid \text{\(a \in \R \) ja \(b \in \R\)}\}.
@@ -161,10 +161,10 @@
                 </p><p>
                     Vektoreita merkitään tässä tekstissä yleensä pienellä kirjaimella, jonka päällä on viiva. Voidaan esimerkiksi kirjoittaa \(\vv=(a,b) \). Luvut \(a \) ja \(b \) ovat tällöin vektorin \(\vv \) <strong>komponentteja</strong>}. Avaruuden \(\R^2 \) vektoreissa on aina kaksi komponenttia, ja avaruutta \(\R^2 \) kutsutaan <strong>kaksiulotteiseksi vektoriavaruudeksi</strong>.
                 </p>
-                <div class="esim drop">
-                    Esimerkiksi \(\vv=(4,-1) \) ja \(\vu=\bigl(\frac{1}{2}, -\sqrt{5}\bigr) \) ovat
-                    avaruuden \(\R^2 \) vektoreita. Vektorin \(\vv \) komponentit ovat \(4 \) ja \(-1 \).
-                    Vektorin \(\vu \) komponentit ovat puolestaan \(\frac{1}{2} \) ja \(-\sqrt{5} \).
+                <div class="esim drop"><h3 class="otsikko">Esimerkki</h3>
+                    <p>Esimerkiksi \(\vv=(4,-1) \) ja \(\vu=\bigl(\frac{1}{2}, -\sqrt{5}\bigr) \) ovat
+                        avaruuden \(\R^2 \) vektoreita. Vektorin \(\vv \) komponentit ovat \(4 \) ja \(-1 \).
+                        Vektorin \(\vu \) komponentit ovat puolestaan \(\frac{1}{2} \) ja \(-\sqrt{5} \).</p>
                 </div>
                 <p>
                     Kaksiulotteisen avaruuden vektoreita voidaan havainnollistaa eri tavoin. Eräs tapa on ajatella vektorit koordinaatiston pisteinä. Vektoria \((a,b) \) vastaa piste, jonka vaakakoordinaatti on \(a \) ja pystykoordinaatti \(b \). Kuvassa \ref{k2} on esitetty vektoreita \((1,3) \) ja \((-3,2) \) vastaavat tason pisteet.
@@ -173,9 +173,9 @@
                 </p>
                 <div class="image">
 
-                    <img src="https://raw.github.com/ruumis/Lineaarialgebra-ja-matriisilaskenta/master/kuvia/kuva2.png" /> \qquad
+                    <img src="https://raw.github.com/ruumis/Lineaarialgebra-ja-matriisilaskenta/master/kuvia/kuva2.png" /> 
                     <img src="https://raw.github.com/ruumis/Lineaarialgebra-ja-matriisilaskenta/master/kuvia/kuva3.png" />
-                    \caption{Tason pisteet, jotka vastaavat vektoreita \((1,3) \) ja \((-3,2) \), sekä samoja vektoreita vastaavat paikkavektorit.}\label{k2}
+                    <p><strong>Kuva: </strong>Tason pisteet, jotka vastaavat vektoreita \((1,3) \) ja \((-3,2) \), sekä samoja vektoreita vastaavat paikkavektorit.</p>\label{k2}
                 </div>
 
                 <p> Pisteen ja paikkavektorin lisäksi avaruuden \(\R^2 \) vektoria voi havainnollistaa mistä tahansa pisteestä lähtevällä suuntajanana. Suuntajanan paikalla ei ole väliä, ainoastaan sen suunta ja pituus merkitsevät. Vektoria \((a,b) \) vastaavalla suuntajanalla on sama suunta ja pituus kuin pisteen \((a,b) \) paikkavektorilla. Kuvassa \ref{k4} on esitetty vektoria \((1,3) \) vastaavia suuntajanoja sekä vektoria \((-3,2) \) vastaavia suuntajanoja.
@@ -183,7 +183,7 @@
                 <div class="image">
 
                     <img src="https://raw.github.com/ruumis/Lineaarialgebra-ja-matriisilaskenta/master/kuvia/kuva4.png" />
-                    \caption{Vektoreita \((1,3) \) ja \((-3,2) \) vastaavia suuntajanoja.}\label{k4}
+                    <p><strong>Kuva: </strong>Vektoreita \((1,3) \) ja \((-3,2) \) vastaavia suuntajanoja.</p>\label{k4}
                 </div>
                 <p>
                     Avaruuden \(\R^2 \) vektori on siis tällä kurssilla määritelmänsä mukaan kahdesta reaaliluvusta koostuva järjestetty pari. Vektoreita voidaan kuitenkin havainnollistaa pisteinä, paikkavektoreina tai suuntajanoina. Se, millainen havainnollistamistapa on paras, riippuu siitä, mitä ollaan tekemässä. Usein vektoreita käsiteltäessä on pystyttävä vaihtamaan sulavasti yhdestä esitystavasta toiseen.
@@ -194,7 +194,7 @@
                 <p>
                     Vektoreille voidaan määritellä erilaisia laskutoimituksia. Yhteenlasku suoritetaan lisäämällä yhteenlaskettavien vektorien komponentit yhteen.
                 </p>
-                <div class="maar drop">
+                <div class="maar drop"><h3 class="otsikko">Määritelma</h3>
                     <p>Oletetaan, että \(\vv=(v_1,v_2) \in \R^2 \) ja \(\vw=(w_1,w_2) \in \R^2 \).
                         Vektoreiden \(\vv \) ja \(\vw \) <strong>summa</strong> on vektori</p>
                     \[
@@ -205,7 +205,7 @@
                     Lisäksi vektoreita voidaan kertoa reaaliluvuilla. Tätä operaatiota kutsutaan
                     <strong>skalaarikertolaskuksi</strong>. Skalaarikertolaskussa vektorin molemmat komponentit kerrotaan samalla luvulla.
                 </p>
-                <div class="maar drop">
+                <div class="maar drop"><h3 class="otsikko">Määritelma</h3>
                     Jos \(\vv=(v_1,v_2) \in \R^2 \) ja \(c \in \R \), määritellään
                     \[
                     c\vv=(cv_1,cv_2).
@@ -214,18 +214,18 @@
                 <p>
                     Vektorien yhteydessä reaalilukuja kutsutaan usein <strong>skalaareiksi</strong>, ja siitä johtuu myös skalaarikertolaskun nimitys.
                 </p>
-                <div class="esim drop">
+                <div class="esim drop"><h3 class="otsikko">Esimerkki</h3>
                     Tarkastellaan vektoreita \(\vv=(4,1) \) ja \(\vw=(-3,2) \). Niiden summa on
                     \[
                     \vv+\vw=(4+(-3),1+2)=(1,3).
                     \]
-                    %Yhteenlaskussa vektorien komponentit lasketaan yhteen, ja siksi
+                    <!-- Yhteenlaskussa vektorien komponentit lasketaan yhteen, ja siksi -->
                     Yhteenlaskua voidaan havainnollistaa geometrisesti (ks. kuva \ref{k5}). Vektorien summa nähdään asettamalla vektoreita vastaavat suuntajanat peräkkäin niin, että jälkimmäinen vektori alkaa siitä, mihin ensimmäinen päättyi. Summavektorin alkupiste on ensimmäisen vektorin alkupiste ja päätepiste jälkimmäisen vektorin päätepiste.
 
                     <div class="image">
 
                         <img src="https://raw.github.com/ruumis/Lineaarialgebra-ja-matriisilaskenta/master/kuvia/kuva5.png" />
-                        \caption{Vektorit \(\vv \) ja \(\vw \) sekä niiden summa \(\vv + \vw \).}\label{k5}
+                        <p><strong>Kuva: </strong>Vektorit \(\vv \) ja \(\vw \) sekä niiden summa \(\vv + \vw \).</p>\label{k5}
                     </div>
 
                     Tutkitaan sitten skalaarikertolaskua. Määritelmän mukaan
@@ -241,11 +241,11 @@
                     <div class="image">
 
                         <img src="https://raw.github.com/ruumis/Lineaarialgebra-ja-matriisilaskenta/master/kuvia/kuva6.png" />
-                        \caption{Skalaarimonikerrat \(2\vv \) ja \(-\frac{1}{2}\vv \).}\label{k6}
+                        <p><strong>Kuva: </strong>Skalaarimonikerrat \(2\vv \) ja \(-\frac{1}{2}\vv \).</p>\label{k6}
                     </div>
                 </div>
 
-                <div class="maar drop">
+                <div class="maar drop"><h3 class="otsikko">Määritelma</h3>
                     Vektorille \((-1)\vv \) käytetään merkintää \(-\vv \).  Summalle \(\vv+(-\vw) \) puolestaan käytetään merkintää \(\vv-\vw \). Tätä kutsutaan vektorien \(\vv \) ja \(\vw \) <strong>erotukseksi</strong>.
                 </div>
                 <p>
@@ -261,10 +261,10 @@
                 <div class="image">
 
                     <img src="https://raw.github.com/ruumis/Lineaarialgebra-ja-matriisilaskenta/master/kuvia/kuva8.png" />
-                    \caption{Vektorien \(\vv \) ja \(\vw \) summa sekä erotukset \(\vw-\vv \) ja \(\vv-\vw \).}\label{k8}
+                    <p><strong>Kuva: </strong>Vektorien \(\vv \) ja \(\vw \) summa sekä erotukset \(\vw-\vv \) ja \(\vv-\vw \).</p>\label{k8}
                 </div>
 
-                %Kahden vektorin summaa voi havainnollistaa suunnikkaan avulla. Jos vektorit ovat suunnikkaan sivut, summavektori on sivujen välissä kulkeva lävistäjä. Vektoreiden erotus on puolestaan samanlaisen suunnikkaan toinen lävistäjä. Erotusvektorin suunta riippuu siitä, kumpi vektori vähennetään kummasta.
+                <!-- Kahden vektorin summaa voi havainnollistaa suunnikkaan avulla. Jos vektorit ovat suunnikkaan sivut, summavektori on sivujen välissä kulkeva lävistäjä. Vektoreiden erotus on puolestaan samanlaisen suunnikkaan toinen lävistäjä. Erotusvektorin suunta riippuu siitä, kumpi vektori vähennetään kummasta. -->
 
                 <h2>Kolmiulotteinen avaruus</h2>
                 <p>
@@ -273,13 +273,13 @@
                     \{(a,b,c) \mid a,b,c \in \R\}.
                     \]
                     Myös avaruuden \(\R^3 \) alkioita nimitetään vektoreiksi, ja avaruutta \(\R^3 \) kutsutaan kolmiulotteiseksi vektoriavaruudeksi. Avaruuden \(\R^3 \) vektoreita voidaan ajatella avaruuskoordinaatiston pisteinä, paikkavektoreina tai suuntajanoina. Yhteenlasku ja skalaarikertolasku määritellään komponenteittain samalla tavalla kuin avaruudessa \(\R^2 \).
-                    %Kuvassa
-                    %?? on esitetty vektorit \(\vv=(-3,4,1) \) ja \(\vv=(0,2,2) \). Niiden summa on
-                    %\[\vv+\vw=(-3+0,4+4,1+2)=(-3,8,3).\]
-                    %Lisäksi \(-4\vv=(-4(-3),-4\cdot 4, 1\cdot 2)=(12,-1,3) \).
+                    <!-- Kuvassa -->
+                    <!-- ?? on esitetty vektorit \(\vv=(-3,4,1) \) ja \(\vv=(0,2,2) \). Niiden summa on -->
+                    <!-- \[\vv+\vw=(-3+0,4+4,1+2)=(-3,8,3).\] -->
+                    <!-- Lisäksi \(-4\vv=(-4(-3),-4\cdot 4, 1\cdot 2)=(12,-1,3) \). -->
                 </p><p>
                     Kolmiulotteisen avaruuden yksikkövektorit ovat \(\vi=(1,0,0) \), \(\vj=(0,1,0) \) ja \(\vk=(0,0,1) \). Näitä merkintöjä ei jatkossa tulla tarvitsemaan.
-                    %Ovat merkinnät sitten mitkä tahansa, tulevat nämä vektorit olemaan keskeisessä roolissa myöhemmissä luvuissa.
+                    <!-- Ovat merkinnät sitten mitkä tahansa, tulevat nämä vektorit olemaan keskeisessä roolissa myöhemmissä luvuissa. -->
                 </p>
             </div>
         </section>
@@ -290,7 +290,7 @@
                     Edellisessä luvussa käsiteltiin avaruuksien \(\R^2 \) ja \(\R^3 \) vektoreita eli
                     reaalilukupareja ja reaalilukukolmikoita. Näitä avaruuksia voidaan yleistää määrittelemällä \(n\)-ulotteinen avaruus \(\R^n \).
                 </p>
-                <div class="maar drop">
+                <div class="maar drop"><h3 class="otsikko">Määritelma</h3>
                     Oletetaan, että \(n \in \{1,2,3,\dots\} \). Avaruuden \(\R^n$\index{avaruus \(\R^n\)} alkiot ovat reaaliluvuista koostuvia \(n$-jonoja. Toisin sanoen
                     \[\R^n=\{(v_1,v_2,\dots,v_n) \mid v_1,v_2,\dots,v_n \in \R\}.\]
                     Avaruuden \(\R^n \) alkioita kutsutaan <strong>vektoreiksi</strong>.
@@ -302,7 +302,7 @@
                 </p><p>
                     Yleisille \(n\)-ulotteisen avaruuden vektoreille määritellään laskutoimitukset samoin kuin kaksi- ja kolmiulotteisessa tapauksessa.
                 </p>
-                <div class="maar drop">
+                <div class="maar drop"><h3 class="otsikko">Määritelma</h3>
                     Oletetaan, että \(\vv \in \R^n \), \(\vw \in \R^n \) ja \(c \in \R \). Tällöin
                     \begin{align*}
                     \vv+\vw & =(v_1+w_1,\,v_2+w_2,\,\dots,\,v_n+w_n) \quad \text{ja} \\
@@ -312,17 +312,17 @@
                 </div>
                 <p>
                     Vektorien yhteydessä reaalilukuja kutsutaan <strong>skalaareiksi</strong>. Jos \(\vv \in \R^n \) ja \(c \in \R \), vektoria \(c\vv \) nimitetään vektorin \(\vv \) <strong>skalaarimonikerraksi</strong>.
-                    %ja siitä johtuu myös skalaarikertolaskun nimitys.
+                    <!-- ja siitä johtuu myös skalaarikertolaskun nimitys. -->
 
                 </p><p>
                     <strong>Huom.</strong> Ainoastaan samanulotteisen avaruuden vektoreita voi laskea yhteen.
                 </p>
-                <div class="maar drop">
+                <div class="maar drop"><h3 class="otsikko">Määritelma</h3>
                     Vektorin \(\vv \) <strong>vastavektori</strong> on skalaarimonikerta \((-1)\vv \). Sitä merkitään \(-\vv \). Vektoreiden \(\vv \) ja \(\vw \) <strong>erotus</strong> on summa \(\vv+(-\vw) \). Sitä merkitään \(\vv-\vw \).
                     Vektoria \((0,0,\dots,0) \) kutsutaan <strong>nollavektoriksi</strong>. Sille käytetään merkintää \(\nv \).
                 </div>
 
-                <div class="esim drop">
+                <div class="esim drop"><h3 class="otsikko">Esimerkki</h3>
                     Merkitään \(\vv = (-5,3,0,1,-1) \) ja \(\vw = (-2,-4,2,3,5) \). Tällöin \(\vv \) ja \(\vw \) ovat avaruuden \(\R^5 \) vektoreita. Lasketaan vektorit \(2\vv - 3\vw \) ja \(-5\vv-\vw$:
                     \[
                     \begin{split}
@@ -348,16 +348,16 @@
                     & \text{8.} \quad 1\vv =\vv.
                     \end{align*}
                     \]
-                    <!--  % <ol>
-                      % <li> \(\vv + \vw=\vw + \vv \) \qquad (vaihdannaisuus)
-                      % <li> \((\vu + \vv) + \vw = \vu + (\vv + \vw) \) \qquad (liitännäisyys)
-                      % <li> \(\vv + \nv = \vv$
-                      % <li> \(\vv + (-\vv) = \nv$
-                      % <li> \(a(\vv+\vw)=a\vv+a\vw \) \qquad (osittelulaki)
-                      % <li> \((a+b)\vv = a\vv + b\vv \) \qquad (osittelulaki)
-                      % <li> \(a(b\vv)=(ab)\vv$
-                      % <li> \(1\vv =\vv$
-                      % </ol> -->
+                    <!--  <ol> -->
+                    <!--  <li> \(\vv + \vw=\vw + \vv \)  (vaihdannaisuus) -->
+                    <!--  <li> \((\vu + \vv) + \vw = \vu + (\vv + \vw) \)  (liitännäisyys) -->
+                    <!--  <li> \(\vv + \nv = \vv$ -->
+                    <!--  <li> \(\vv + (-\vv) = \nv$ -->
+                    <!--  <li> \(a(\vv+\vw)=a\vv+a\vw \)  (osittelulaki) -->
+                    <!--  <li> \((a+b)\vv = a\vv + b\vv \)  (osittelulaki) -->
+                    <!--  <li> \(a(b\vv)=(ab)\vv$ -->
+                    <!--  <li> \(1\vv =\vv$ -->
+                    <!--  </ol> -->
                 </div>
                 <p>
                     <strong>Huom.</strong> Lause tarkoittaa väitettä, joka voidaan perustella todeksi nojautumalla määritelmiin ja aikaisemmin todeksi osoitettuihin väitteisiin.
@@ -374,14 +374,14 @@
                 </div>
                 <p>
                     Tasovektorien yhteydessä todettiin, että skalaarikertolasku säilyttää (tai kääntää) vektorin suunnan. Otetaan tämä havainto yleisten vektorien yhdensuuntaisuuden määritelmäksi.
-                    %Skalaarikertolaskun avulla voidaan määritellä vektorien yhdensuuntaisuus.
+                    <!-- Skalaarikertolaskun avulla voidaan määritellä vektorien yhdensuuntaisuus. -->
                 </p>
-                <div class="maar drop">
+                <div class="maar drop"><h3 class="otsikko">Määritelma</h3>
                     Avaruuden \(\R^n \) vektorit \(\vv \) ja \(\vw \) ovat <strong>yhdensuuntaiset</strong>, jos \(\vv=r\vw\)
                     jollakin \(r \in \R \setminus \{0\} \). Tällöin merkitään \(\vv \parallel \vw \).
                 </div>
 
-                <div class="esim drop">\label{esim:yhdensuuntaisuus
+                <div class="esim drop"><h3 class="otsikko">Esimerkki</h3>\label{esim:yhdensuuntaisuus
                     <p>
                         Vektorit \(\vv=(-2,1) \) ja \(\vw=(6,-3) \) ovat
                         yhdensuuntaiset, sillä \(\vv=-\frac{1}{3}\vw \). Vektorit \(\vv \) ja \(\vu=(3,-1) \) eivät
@@ -399,92 +399,92 @@
                     <div class="image">
 
                         <img src="https://raw.github.com/ruumis/Lineaarialgebra-ja-matriisilaskenta/master/kuvia/kuva7.png" />
-                        \caption{Esimerkin~\ref{esim:yhdensuuntaisuus} vektorit \(\vv \), \(\vw \) ja \(\vu \).}\label{k7}
+                        <p><strong>Kuva: </strong>Esimerkin~\ref{esim:yhdensuuntaisuus} vektorit \(\vv \), \(\vw \) ja \(\vu \).</p>\label{k7}
                     </div>
-                    %Vektorit \(\vv=(3,-4,1,-3) \) ja \(\vx=(9,-12,3,-9) \) ovat samansuuntaiset, sillä \(\vv=1/3\vx \).
-                    %Piirrä tästä kuva.
+                    <!-- Vektorit \(\vv=(3,-4,1,-3) \) ja \(\vx=(9,-12,3,-9) \) ovat samansuuntaiset, sillä \(\vv=1/3\vx \).
+                    <!-- Piirrä tästä kuva.
 
                 </div>
 
 
-                %Yhdensuuntaisuuden määritelmää voidaan myös yleistää ottamalla mukaan useampia vektoreita. Tällöin päädytään käsitteeseen, jota tarvitaan jatkossa hyvin monesti vektoriavaruuksien ominaisuuksia tutkittaessa.
+                    <!-- Yhdensuuntaisuuden määritelmää voidaan myös yleistää ottamalla mukaan useampia vektoreita. Tällöin päädytään käsitteeseen, jota tarvitaan jatkossa hyvin monesti vektoriavaruuksien ominaisuuksia tutkittaessa -->
 
-                <div class="maar drop">
-                    Vektori \(\vw \in \R^n \) on vektoreiden \(\vv_1, \vv_2, \dots \vv_k \in \R^n \) <strong>lineaarikombinaatio</strong> eli  <strong>lineaariyhdistelmä</strong>, jos on olemassa sellaiset reaaliluvut \(a_1, a_2, \dots, a_k \), että
-                    \[
-                    \vw = a_1\vv_1 + a_2\vv_2 + \cdots + a_k\vv_k.
-                    \]
-                    %Jos \(\vv_1,\dots,\vv_k \in \R^n \) ja \(a_1,a_2,\dots,a_k \in \R \), summaa
-                    %$a_1\vv_1+a_2\vv_2+\dots a_k\vv_k \mid a_1,a_2 \) kutsutaan vektoreiden
-                    %$\vv_1,\dots,\vv_k \) lineaarikombinaatioksi.
-                </div>
-
-                <div class="esim drop">
-                    Merkitään \(\vv_1 = (1,1) \), \(\vv_2 = (-1,2) \) ja \(\vw = (5,-1) \). Vektori \(\vw \) on vektoreiden \(\vv_1 \) ja \(\vv_2 \) lineaarikombinaatio, sillä
-                    \[
-                    \begin{split}
-                    3\vv_1 - 2\vv_2
-                    &= 3(1,1) - 2(-1,2) = (3,3)-(-2,4) \\
-                    &= (5,-1) = \vw.
-                    \end{split}
-                    \]
-
-                    <div class="image">
-
-                        <img src="https://raw.github.com/ruumis/Lineaarialgebra-ja-matriisilaskenta/master/kuvia/kuva9.png" /> \quad
-                        <img src="https://raw.github.com/ruumis/Lineaarialgebra-ja-matriisilaskenta/master/kuvia/kuva10.png" />
-                        \caption{Vektori \(\vw \) on vektoreiden \(\vv_1 \) ja \(\vv_2 \) lineaarikombinaatio.}\label{k9-10}
+                    <div class="maar drop"><h3 class="otsikko">Määritelma</h3>
+                        Vektori \(\vw \in \R^n \) on vektoreiden \(\vv_1, \vv_2, \dots \vv_k \in \R^n \) <strong>lineaarikombinaatio</strong> eli  <strong>lineaariyhdistelmä</strong>, jos on olemassa sellaiset reaaliluvut \(a_1, a_2, \dots, a_k \), että
+                        \[
+                        \vw = a_1\vv_1 + a_2\vv_2 + \cdots + a_k\vv_k.
+                        \]
+                        <!-- Jos \(\vv_1,\dots,\vv_k \in \R^n \) ja \(a_1,a_2,\dots,a_k \in \R \), summaa -->
+                        <!-- $a_1\vv_1+a_2\vv_2+\dots a_k\vv_k \mid a_1,a_2 \) kutsutaan vektoreiden -->
+                        <!-- $\vv_1,\dots,\vv_k \) lineaarikombinaatioksi. -->
                     </div>
-                </div>
 
-                Edellisessä esimerkissä arvattiin, mitkä kertoimien \(a_1 \) ja \(a_2 \) pitää olla, jotta pätisi \(\vw=a_1\vv_1+a_2\vv_2 \). Myöhemmin esitellään yleinen keino kertoimien selvittämiseksi.
-            </div>
+                    <div class="esim drop"><h3 class="otsikko">Esimerkki</h3>
+                        Merkitään \(\vv_1 = (1,1) \), \(\vv_2 = (-1,2) \) ja \(\vw = (5,-1) \). Vektori \(\vw \) on vektoreiden \(\vv_1 \) ja \(\vv_2 \) lineaarikombinaatio, sillä
+                        \[
+                        \begin{split}
+                        3\vv_1 - 2\vv_2
+                        &= 3(1,1) - 2(-1,2) = (3,3)-(-2,4) \\
+                        &= (5,-1) = \vw.
+                        \end{split}
+                        \]
+
+                        <div class="image">
+
+                            <img src="https://raw.github.com/ruumis/Lineaarialgebra-ja-matriisilaskenta/master/kuvia/kuva9.png" /> \quad
+                            <img src="https://raw.github.com/ruumis/Lineaarialgebra-ja-matriisilaskenta/master/kuvia/kuva10.png" />
+                            <p><strong>Kuva: </strong>Vektori \(\vw \) on vektoreiden \(\vv_1 \) ja \(\vv_2 \) lineaarikombinaatio.</p>\label{k9-10}
+                        </div>
+                    </div>
+
+                    Edellisessä esimerkissä arvattiin, mitkä kertoimien \(a_1 \) ja \(a_2 \) pitää olla, jotta pätisi \(\vw=a_1\vv_1+a_2\vv_2 \). Myöhemmin esitellään yleinen keino kertoimien selvittämiseksi.
+                </div>
         </section>
         <section class="kappaleraja" id="3">
             <div div class="kappaleraja-linis" id="Suorat ja tasot" tekija="Jokke Häsä, Lotta Oinonen, Johanna Rämö" deadline=" ">
                 <h1>Suorat ja tasot</h1>
 
-                %Tässä luvussa käsitellään avaruuksien \(\R^2 \) ja \(\R^3 \) suoria ja tasoja vektoreiden näkökulmasta.
+                <!-- Tässä luvussa käsitellään avaruuksien \(\R^2 \) ja \(\R^3 \) suoria ja tasoja vektoreiden näkökulmasta. -->
 
                 <h2>Suora</h2>
 
-                %Havaitsimme skalaarikertolaskun tulkinnan yhteydessä, että
-                %Jos \(\vv \) on mikä tahansa nollasta poikkeava tason \(\R^2 \) vektori ja \(t \) on jokin reaaliluku, niin vektori \(t\vv \) on yhdensuuntainen vektorin \(\vv \) kanssa. Tällöin että näitä vektoreita vastaavat koordinaatiston pisteet sijaitsevat samalla suoralla. Voidaan siis sanoa, että vektorijoukkoa
-                %\begin{equation}\label{yhtalo:origon_kautta_kulkeva_suora}
-                %\{t\vv \mid t \in \R\}
-                %\end{equation}
-                %vastaava pistejoukko muodostaa koordinaatiston suoran. Kullakin kertoimen \(t \) valinnalla saadaan jokin suoran pisteistä. Jos valitaan \(t=1 \), saadaan alkuperäinen piste \(\vv \).
+                <!-- Havaitsimme skalaarikertolaskun tulkinnan yhteydessä, että -->
+                <!-- Jos \(\vv \) on mikä tahansa nollasta poikkeava tason \(\R^2 \) vektori ja \(t \) on jokin reaaliluku, niin vektori \(t\vv \) on yhdensuuntainen vektorin \(\vv \) kanssa. Tällöin että näitä vektoreita vastaavat koordinaatiston pisteet sijaitsevat samalla suoralla. Voidaan siis sanoa, että vektorijoukkoa -->
+                <!-- \begin{equation}\label{yhtalo:origon_kautta_kulkeva_suora} -->
+                <!-- \{t\vv \mid t \in \R\} -->
+                <!-- \end{equation} -->
+                <!-- vastaava pistejoukko muodostaa koordinaatiston suoran. Kullakin kertoimen \(t \) valinnalla saadaan jokin suoran pisteistä. Jos valitaan \(t=1 \), saadaan alkuperäinen piste \(\vv \). -->
                 <p>
                     Kun vektoria \((3,-1) \) kerrotaan reaaliluvuilla, on tuloksena vektoreita, jotka ovat yhdensuutaisia vektorin \((3,-1) \) kanssa. Näitä vektoreita vastaavat koordinaatiston pisteet sijaitsevat samalla suoralla. Voidaan siis sanoa, että joukko \(\{t(3,-1) \mid t \in \R\} \).
-                    %\begin{equation}\label{yhtalo:origon_kautta_kulkeva_suora}
-                    %\{t(3,1) \mid t \in \R\}
-                    %\end{equation}
+                    <!-- \begin{equation}\label{yhtalo:origon_kautta_kulkeva_suora} -->
+                    <!-- \{t(3,1) \mid t \in \R\} -->
+                    <!-- \end{equation -->
                     muodostaa koordinaatiston suoran. Kullakin kertoimen \(t \) valinnalla saadaan jokin suoran pisteistä. Jos valitaan \(t=1 \), saadaan alkuperäinen piste \((3,1) \).
                 </p>
                 <div class="image">
 
                     <img src="https://raw.github.com/ruumis/Lineaarialgebra-ja-matriisilaskenta/master/kuvia/kuva127.png" />
-                    \caption{Suora \(\{t(3,-1) \mid t \in \R\} \).}\label{k127}
+                    <p><strong>Kuva: </strong>Suora \(\{t(3,-1) \mid t \in \R\} \).</p>\label{k127}
                 </div>
                 <p>
                     Kun edellä mainitussa esityksessä \(t(3,-1) \) valitaan \(t=0 \), saadaan nollavektori \(\nv \). Suora kulkee siis origon kautta.
-                    %Nollavektori on siis aina mukana muotoa \eqref{yhtalo:origon_kautta_kulkeva_suora} olevassa suorassa.
+                    <!-- Nollavektori on siis aina mukana muotoa \eqref{yhtalo:origon_kautta_kulkeva_suora} olevassa suorassa. -->
                     Jos halutaan muodostaa  suora, joka ei kulje origon kautta, on suora ensin ''siirrettävä'' haluttuun paikkaan. Esimerkiksi suora \(\{(1,2)+t(3,-1) \mid t \in \R\}\)
-                    %\[
-                    %\{(-1,2)+t(3,1) \mid t \in \R\}
-                    %\]
+                    <!-- \[ -->
+                    <!-- \{(-1,2)+t(3,1) \mid t \in \R\} -->
+                    <!-- \] -->
                     ei kulje origon kautta.
                 </p>
                 <div class="image">
 
                     <img src="https://raw.github.com/ruumis/Lineaarialgebra-ja-matriisilaskenta/master/kuvia/kuva128.png" />
-                    \caption{Suora$\{(1,2)+t(3,-1) \mid t \in \R\} \).}\label{k128}
+                    <p><strong>Kuva: </strong>Suora$\{(1,2)+t(3,-1) \mid t \in \R\} \).</p>\label{k128}
                 </div>
 
-                %Määritelmä toimii yhtä hyvin kaksi- kuin kolmiulotteisessakin avaruudessa.
+                <!-- Määritelmä toimii yhtä hyvin kaksi- kuin kolmiulotteisessakin avaruudessa. -->
 
-                <div class="maar drop">
-                    %Olkoon \(n=2 \) tai \(n=3 \).
+                <div class="maar drop"><h3 class="otsikko">Määritelma</h3>
+                    <!-- Olkoon \(n=2 \) tai \(n=3 \). -->
                     <p>Avaruuden \(\R^n \) <strong>suora</strong> on joukko</p>
                     \[
                     \{\vp+t\vv \mid t \in \R\},
@@ -496,7 +496,7 @@
                     Olkoon \(S \) avaruuden \(\R^2 \) suora. Jos \((a,b) \in S \), niin sanotaan, että piste \((a,b) \) <strong>on suoralla \(S\)</strong> tai että suora \(S \) <strong>kulkee pisteen \((a,b) \) kautta</strong>. Vastaavia ilmauksia käytetään avaruudessa \(\R^n \).
                 </p><p>    <strong>Huom.</strong> Yllä ei ole annettu mitä tahansa suoran kuvailua, vaan suoran <strong>määritelmä</strong>. Emme siis ole lähteneet esimerkiksi jostakin suoran geometrisestä muotoilusta ja ilmaisseet saman asian vektoreilla, vaan määritelleet suoran käsitteen tämän kurssin tarpeita varten uudelleen.
 
-                <div class="esim drop">\label{suoraEsim}
+                <div class="esim drop"><h3 class="otsikko">Esimerkki</h3>\label{suoraEsim}
                     <p>
                         Esimerkiksi joukko</p>
                     \[
@@ -514,7 +514,7 @@
                 <div class="image">
 
                     <img src="https://raw.github.com/ruumis/Lineaarialgebra-ja-matriisilaskenta/master/kuvia/kuva24.png" />
-                    \caption{Suora \(S=\{(-1,2)+t(-2,-1) \mid t \in \R\} \) avaruudessa \(\R^2 \). Suoran paikkavektori on \((-1,2) \) ja suuntavektori \((-2,-1) \).}\label{k24}
+                    <p><strong>Kuva: </strong>Suora \(S=\{(-1,2)+t(-2,-1) \mid t \in \R\} \) avaruudessa \(\R^2 \). Suoran paikkavektori on \((-1,2) \) ja suuntavektori \((-2,-1) \).</p>\label{k24}
                 </div>
                 <p>
                     Ryhdytään seuraavaksi määrittämään suoraa, joka kulkee annettujen pisteiden
@@ -524,10 +524,10 @@
                 <div class="image">
 
                     <img src="https://raw.github.com/ruumis/Lineaarialgebra-ja-matriisilaskenta/master/kuvia/kuva65.png" />
-                    \caption{Vektorit \(\pv{OA} \), \(\pv{OB} \) ja \(\pv{AB} \).}\label{k65}
+                    <p><strong>Kuva: </strong>Vektorit \(\pv{OA} \), \(\pv{OB} \) ja \(\pv{AB} \).</p>\label{k65}
                 </div>
 
-                <div class="esim drop">
+                <div class="esim drop"><h3 class="otsikko">Esimerkki</h3>
                     <p>
                         Tutkitaan, millainen on pisteiden \(A=(-1,5) \) ja \(B=(2,2) \) kautta kulkeva suora.
                         Tätä varten tarvitaan suoralle paikkavektori. Paikkavektoriksi käy minkä
@@ -541,7 +541,7 @@
                     <div class="image">
 
                         <img src="https://raw.github.com/ruumis/Lineaarialgebra-ja-matriisilaskenta/master/kuvia/kuva68.png" />
-                        \caption{Suora \(\{(-1,5)+t(3,-3) \mid t \in \R\} \).}\label{k68}
+                        <p><strong>Kuva: </strong>Suora \(\{(-1,5)+t(3,-3) \mid t \in \R\} \).</p>\label{k68}
                     </div>
                     <p>
                         Varmistutaan vielä siitä, että annetut pisteet \(A \) ja \(B \) todellakin ovat suoralla.
@@ -558,9 +558,9 @@
                     <li> vektoriksi \(\vv \) voidaan valita mikä tahansa suoran suuntainen vektori.
                 </ul>
                 <p>Tutkitaan ilmiötä esimerkin avulla, ennen kuin todistetaan väitteet.
-                    %Väitteitä ei todisteta tässä; todistukset voi halutessaan laatia hieman haastavampana harjoitustehtävänä.
+                    <!-- Väitteitä ei todisteta tässä; todistukset voi halutessaan laatia hieman haastavampana harjoitustehtävänä. -->
                 </p>
-                <div class="esim drop">
+                <div class="esim drop"><h3 class="otsikko">Esimerkki</h3>
                     <p>
                         Esimerkin \ref{suoraEsim} suoralle \(S=\{(-1,2)+t(-2,-1) \mid t \in \R\} \) on mahdollista
                         valita paikkavektoriksi piste \((3,4) \) ja suuntavektoriksi vektori \((-4,-2) \). Tällöin \(S \) voidaan kirjoittaa muodossa
@@ -573,7 +573,7 @@
 
                         <img src="https://raw.github.com/ruumis/Lineaarialgebra-ja-matriisilaskenta/master/kuvia/kuva67.png" /> \quad
                         <img src="https://raw.github.com/ruumis/Lineaarialgebra-ja-matriisilaskenta/master/kuvia/kuva66.png" />
-                        \caption{Suoran paikkavektori ja suuntavektori eivät ole yksikäsitteisiä.}\label{k66-67}
+                        <p><strong>Kuva: </strong>Suoran paikkavektori ja suuntavektori eivät ole yksikäsitteisiä.</p>\label{k66-67}
                     </div>
                     <p>
                         Kuvasta katsominen ei vielä todista suoria samoiksi.
@@ -599,15 +599,15 @@
                     <p>Koska \(-2+2s\in\R \), tiedetään, että \(\va \in S \). Näin on osoitettu, että \(S' \subset S \).</p>
                 </div>
 
-                Osoitetaan sitten yleisessä tapauksessa, että paikkavektoriksi voidaan valita suoran minkä tahansa pisteen paikkavektori
-                ja suuntavektoriksi mikä tahansa suoran suuntainen vektori. Todistus mukailee edellistä esimerkkiä.
+                <p>Osoitetaan sitten yleisessä tapauksessa, että paikkavektoriksi voidaan valita suoran minkä tahansa pisteen paikkavektori
+                    ja suuntavektoriksi mikä tahansa suoran suuntainen vektori. Todistus mukailee edellistä esimerkkiä.</p>
                 <div class="lause">
                     <p> Olkoon \(S=\{\vp+t\vv \mid t \in \R\} \) avaruuden \(\R^n \) suora.  Oletetaan, että \(\vq \in S \) ja \(\vw \) on yhdensuuntainen vektorin \(\vv \) kanssa. Tällöin \(S=\{\vq+t\vw \mid t \in \R\}\)</p>
                 </div>
 
                 <div class="proof drop">
-                    Merkitään \(S'=\{\vq+t\vw \mid t \in \R\} \) ja osoitetaan, että \(S=S' \). Koska vektorit \(\vv \) ja \(\vw \) ovat yhdensuuntaisia, on olemassa \(k \in \R \setminus\{0\} \), jolle pätee \(\vv=k\vw \). Tästä seuraa, että \(\vw=(1/k)\vv \). Toisaalta \(\vq \in S \), joten \(\vq=\vp+b\vw \) jollakin \(b \in \R \). Tästä seuraa, että \(\vp=\vq-b\vw\)
-
+                    <p>Merkitään \(S'=\{\vq+t\vw \mid t \in \R\} \) ja osoitetaan, että \(S=S' \). Koska vektorit \(\vv \) ja \(\vw \) ovat yhdensuuntaisia, on olemassa \(k \in \R \setminus\{0\} \), jolle pätee \(\vv=k\vw \). Tästä seuraa, että \(\vw=(1/k)\vv \). Toisaalta \(\vq \in S \), joten \(\vq=\vp+b\vw \) jollakin \(b \in \R \). Tästä seuraa, että \(\vp=\vq-b\vw\)
+                    </p>
                     <p>''\(\subset\)'':  Oletetaan, että \(\va \in S \). Joukon \(S \) määritelmän perusteella \(\va=\vp+t\vv \) jollakin \(t \in \R \). Huomataan, että</p>
                     \[
                     \begin{split}
@@ -632,7 +632,7 @@
 
                 <p>Kolmiulotteisessa avaruudessa voidaan määritellä tasot samaan tapaan kuin suorat. Nyt tarvitaan kuitenkin kahta suuntavektoria, ja näiden täytyy olla erisuuntaiset.</p>
 
-                <div class="maar drop">
+                <div class="maar drop"><h3 class="otsikko">Määritelma</h3>
                     <p>Avaruuden \(\R^n \) <strong>taso</strong> on joukko</p>
                     \[\{\vp+s\vv+t\vw \mid s,t \in \R\},\] missä
                     <p>\(\vp \in \R^n \), \(\vv,\vw \in \R^n \setminus \{\nv\} \) ja vektorit \(\vv \) ja \(\vw\)
@@ -646,7 +646,7 @@
                 <div class="image">
 
                     <img src="https://raw.github.com/ruumis/Lineaarialgebra-ja-matriisilaskenta/master/kuvia/kuva28.png" />
-                    \caption{Piste \((a,b,c) \) on tasossa \(T \).}\label{k28}
+                    <p><strong>Kuva: </strong>Piste \((a,b,c) \) on tasossa \(T \).</p>\label{k28}
                 </div>
 
                 <p>Kuten suorien kohdalla voidaan tasojenkin tapauksessa osoittaa, että sama taso on mahdollista kirjoittaa usealla eri tavalla joukkona \(\{\vp+s\vw + t\vv \mid s, t \in \R\} \). Tarkemmin sanoen</p>
@@ -655,16 +655,16 @@
                     <li> vektoreiksi  \(\vw \) ja \(\vv \) voidaan valita mitkä tahansa tason suuntaisen vektorit, kunhan \(\vw \) ja \(\vv \) eivät ole yhdensuuntaiset.
                 </ul>
                 <p>Tilannetta on havainnollistettu kuvassa~\ref{k28b-29}. Todistus on samanlainen kuin suorien tapauksessa, mutta sitä ei esitetä tässä.</p>
-                %Tarkka todistus jätetään jälleen (haastavaksi) harjoitustehtäväksi.
+                <!-- Tarkka todistus jätetään jälleen (haastavaksi) harjoitustehtäväksi. -->
 
                 <div class="image">
 
-                    <img src="https://raw.github.com/ruumis/Lineaarialgebra-ja-matriisilaskenta/master/kuvia/kuva28b.png" /> \hspace*{-20mm}
+                    <img src="https://raw.github.com/ruumis/Lineaarialgebra-ja-matriisilaskenta/master/kuvia/kuva28b.png" /> 
                     <img src="https://raw.github.com/ruumis/Lineaarialgebra-ja-matriisilaskenta/master/kuvia/kuva29.png" />
-                    \caption{Taso voidaan kirjoittaa eri tavoin joukkona \(\{\vp+s\vw + t\vv \mid s, t \in \R\} \).}\label{k28b-29}
+                    <p><strong>Kuva: </strong>Taso voidaan kirjoittaa eri tavoin joukkona \(\{\vp+s\vw + t\vv \mid s, t \in \R\} \).</p>\label{k28b-29}
                 </div>
 
-                <div class="esim drop">
+                <div class="esim drop"><h3 class="otsikko">Esimerkki</h3>
                     <p>Määritetään pisteiden \(A = (0,1,0) \), \(B = (-1,3,2) \) ja \(C = (-2,0,1) \) kautta kulkeva taso \(T \).
                         Valitaan ensin tason paikkavektori. Esimerkiksi tason pisteen \(A \) paikkavektori \(\pv{OA} = (0,1,0) \) käy tähän tarkoitukseen.
                         Lisäksi tarvitaan tason suuntaiset suuntavektorit:</p>
