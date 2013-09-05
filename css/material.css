@@ -40,9 +40,7 @@
             }
 
 
-            div.maar h3,
-            div.lause h3,
-            div.esim h3 {
+            div.drop h3 {
                 -webkit-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
                 -moz-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
                 box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
@@ -59,7 +57,7 @@
                 padding-top: 1em;
             }
       
-            div.lause h4 {
+            div.drop h4 {
                 -webkit-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
                 -moz-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
                 box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
@@ -68,7 +66,7 @@
                 -moz-border-radius:5px;
                 -webkit-border-radius:5px;
                 border:none;
-                padding:16px;
+                padding:12px;
                 text-shadow:#FE6 0 1px 0;
                 padding-top: 1em;
             }     
