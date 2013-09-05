@@ -1,0 +1,97 @@
+            body li {
+                 background: url(../images/green-bullet.png) no-repeat 0 9px;
+                 padding: 0 0 0 20px;
+            }
+
+            div.maar,
+            div.lause,
+            div.esim,
+            div.image {
+                border:none;
+                -webkit-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+                -moz-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+                box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+                color: #333;
+                border-radius:5px;
+                -moz-border-radius:5px;
+                -webkit-border-radius:5px;
+
+                margin: 2em 1em 2em 1em;
+                padding: 1em;
+            }
+            div.maar {
+                background-color: #eeeeff;
+            }
+
+            div.esim {
+                background-color: #eeffee;
+            }
+           div.lause {
+                background-color: #ffeeee;
+            }
+            div.maar h3 {
+                background-color:#ddddee;
+            }
+            div.esim h3 {
+                background-color:#ddeedd;
+            }
+            div.lause h3 {
+                background-color:#eedddd;
+            }
+
+
+            div.maar h3,
+            div.lause h3,
+            div.esim h3 {
+                -webkit-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+                -moz-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+                box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+                color:#333;
+                border-radius:5px;
+                -moz-border-radius:5px;
+                -webkit-border-radius:5px;
+                border:none;
+                font-size:16px;
+                font-weight:700;
+                height:32px;
+                padding:16px;
+                text-shadow:#FE6 0 1px 0;
+                padding-top: 1em;
+            }
+      
+            div.lause h4 {
+                -webkit-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+                -moz-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+                box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+                color:#333;
+                border-radius:5px;
+                -moz-border-radius:5px;
+                -webkit-border-radius:5px;
+                border:none;
+                padding:16px;
+                text-shadow:#FE6 0 1px 0;
+                padding-top: 1em;
+            }     
+
+            div.drop {
+                cursor:pointer;
+            }
+
+            div.image {
+                background-color: #fcfcfc;
+                text-align: center;
+            }
+
+            div.image img{
+                display: inline-block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            div.box-mooc {
+                font-size: 1.2em;
+            }
+
+            div.sisalto {
+                padding-left: 20px;
+            }
